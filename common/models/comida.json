@@ -1,0 +1,43 @@
+{
+  "name": "comida",
+  "plural": "comidas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "litrosAgua": {
+      "type": "number",
+      "required": true
+    },
+    "almuerzo": {
+      "type": "string",
+      "required": true
+    },
+    "colacionUno": {
+      "type": "string",
+      "required": true
+    },
+    "alimento": {
+      "type": "string",
+      "required": true
+    },
+    "colacionDos": {
+      "type": "string",
+      "required": true
+    },
+    "cena": {
+      "type": "string",
+      "required": true
+    },
+    "te": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
